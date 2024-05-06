@@ -6,6 +6,9 @@ public class Rectangulo extends FiguraGeometrica {
     private double lado2;
 
     public Rectangulo(String nombre, String color, double lado1, double lado2) {
+    	// Complejidad Temporal: O(1) Tiempo constante.
+        // Complejidad Espacial: O(1) Espacio constante.
+    	
         super(nombre, color);
         this.lado1 = lado1;
         this.lado2 = lado2;
@@ -29,6 +32,10 @@ public class Rectangulo extends FiguraGeometrica {
 
     @Override
     public double obtenerArea() {
+    	
+    	 // Complejidad Temporal: O(1) Tiempo constante.
+        // Complejidad Espacial: O(1) Espacio constante.
+    	
         return lado1 * lado2;
     }
 
@@ -39,6 +46,10 @@ public class Rectangulo extends FiguraGeometrica {
      */
     @Override
     public double obtenerPerimetro() {
+    	
+    	//Complejidad Temporal: O(1) Tiempo constante.
+        //Complejidad Espacial: O(1) Espacio constante.
+    	
         return 2 * (lado1 + lado2);
     }
 }

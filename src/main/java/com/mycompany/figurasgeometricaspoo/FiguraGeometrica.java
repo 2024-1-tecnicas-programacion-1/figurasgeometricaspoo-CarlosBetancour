@@ -27,11 +27,19 @@ public class FiguraGeometrica {
     }
 
     public double obtenerArea() {
-
+    	
+    	// Complejidad Temporal: O(1) Tiempo constante.
+        // Complejidad Espacial: O(1) Espacio constante.
+    	
         return 0.0;
+        
+        
     }
 
     public double obtenerPerimetro() {
+    	
+    	// Complejidad Temporal: O(1) Tiempo constante.
+        // Complejidad Espacial: O(1) Espacio constante.
 
         return 0.0;
     }

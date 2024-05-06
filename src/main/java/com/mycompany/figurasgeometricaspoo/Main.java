@@ -6,6 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        
+        // Complejidad Temporal: O(1) Tiempo constante.
+        // Complejidad Espacial: O(1) Espacio constante.
 
         System.out.println("Ingrese el nombre de la figura:");
         String nombre = scanner.nextLine();

@@ -19,11 +19,16 @@ public class Circulo extends FiguraGeometrica {
 
     // Implementación del método para calcular el área específica del círculo
     /**
-     *
+     
+     
      * @return
      */
     @Override
     public double obtenerArea() {
+
+        //Complejidad Temporal: O(1) Tiempo constante.
+        //Complejidad Espacial: O(1) Espacio constante.
+    	
         return Math.PI * Math.pow(radio, 2);
     }
 

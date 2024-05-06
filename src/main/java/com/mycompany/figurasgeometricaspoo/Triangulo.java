@@ -6,6 +6,10 @@ public class Triangulo extends FiguraGeometrica {
     private double altura;
 
     public Triangulo(String nombre, String color, double base, double altura) {
+    	
+    	// Complejidad Temporal: O(1) Tiempo constante.
+        // Complejidad Espacial: O(1) Espacio constante.
+    	
         super(nombre, color);
         this.base = base;
         this.altura = altura;
@@ -30,12 +34,19 @@ public class Triangulo extends FiguraGeometrica {
     // Implementación del método para calcular el área específica del triángulo
     @Override
     public double obtenerArea() {
+    	
+    	// Complejidad Temporal: O(1) Tiempo constante.
+        // Complejidad Espacial: O(1) Espacio constante.
+    	
         return (base * altura) / 2;
     }
 
     // Implementación del método para calcular el perímetro específico del triángulo
     @Override
     public double obtenerPerimetro() {
+    	
+    	// Complejidad Temporal: O(1) Tiempo constante.
+        // Complejidad Espacial: O(1) Espacio constante.
 
         return 0.0; // 
     }
