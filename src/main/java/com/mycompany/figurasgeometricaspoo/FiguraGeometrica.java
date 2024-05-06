@@ -5,13 +5,11 @@ public class FiguraGeometrica {
     private String nombre;
     private String color;
 
-    // Constructor para inicializar los atributos
     public FiguraGeometrica(String nombre, String color) {
         this.nombre = nombre;
         this.color = color;
     }
 
-    // Getter y Setter para el atributo 'nombre'
     public String getNombre() {
         return nombre;
     }
@@ -20,7 +18,6 @@ public class FiguraGeometrica {
         this.nombre = nombre;
     }
 
-    // Getter y Setter para el atributo 'color'
     public String getColor() {
         return color;
     }
@@ -29,16 +26,13 @@ public class FiguraGeometrica {
         this.color = color;
     }
 
-    // Método para calcular el área (debe ser implementado en las subclases)
     public double obtenerArea() {
-        // Implementa el cálculo del área aquí
-        return 0.0; // Por ahora, devuelve un valor arbitrario
+
+        return 0.0;
     }
 
-    // Método para calcular el perímetro (debe ser implementado en las subclases)
     public double obtenerPerimetro() {
-        // Implementa el cálculo del perímetro aquí
-        return 0.0; // Por ahora, devuelve un valor arbitrario
+
+        return 0.0;
     }
 }
-

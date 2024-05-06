@@ -1,15 +1,14 @@
 package com.mycompany.figurasgeometricaspoo;
 
 public class Circulo extends FiguraGeometrica {
+
     private double radio;
 
-    // Constructor para inicializar los atributos
     public Circulo(String nombre, String color, double radio) {
         super(nombre, color);
         this.radio = radio;
     }
 
-    // Getter y Setter para el atributo 'radio'
     public double getRadio() {
         return radio;
     }
@@ -19,6 +18,10 @@ public class Circulo extends FiguraGeometrica {
     }
 
     // Implementación del método para calcular el área específica del círculo
+    /**
+     *
+     * @return
+     */
     @Override
     public double obtenerArea() {
         return Math.PI * Math.pow(radio, 2);

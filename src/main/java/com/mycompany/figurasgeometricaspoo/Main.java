@@ -3,6 +3,7 @@ package com.mycompany.figurasgeometricaspoo;
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -39,9 +40,10 @@ public class Main {
                 double altura = scanner.nextDouble();
                 Triangulo triangulo = new Triangulo(nombre, color, base, altura);
                 System.out.println("Área del triángulo: " + triangulo.obtenerArea());
-                // No podemos calcular el perímetro específico del triángulo sin más información
+
             }
-            default -> System.out.println("Tipo de figura no válido.");
+            default ->
+                System.out.println("Tipo de figura no válido.");
         }
     }
 }
